@@ -39,7 +39,7 @@ void iproduct(float * a, float * b,int Num)
     {
         *(a+i)=*(a+i) * *(b+i); 
     }
-    printf("%f",sum(a,Num));
+    printf("%f",sum(a,Num));//test
 }
 
 void main()
